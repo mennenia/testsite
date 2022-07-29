@@ -1,3 +1,6 @@
+import Header from "./Header";
+// import Footer from "./Footer";
+
 const HeroBlock = () => {
   return (
     <section>
@@ -695,7 +698,7 @@ const Testimonial = () => {
 function App() {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       <HeroBlock />
       <Features />
       <Guide />
